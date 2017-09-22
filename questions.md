@@ -1,7 +1,7 @@
  #1  ###################
  # Scope
- Given the following function
- ```
+ Given the following function -->
+
  function street(){
      var weather = "rainy";
 
@@ -20,25 +20,25 @@
 
          }
      }
- }
- ```
-
+ }  
  Remove entries from the array until only correct answers remain
 
  Which function(s) access the weather variable and get "rainy" (Delete wrong answers, leave correct ones)
-`var scopeArray1 = ["street", "firstFloor", "secondFloor", "neighbors", "neighborsSecondFloor"];`
+`var scopeArray1 = ["street", "firstFloor", "secondFloor"];`
 
  Which function(s) access the weather variable and get "dry" (Delete wrong answers, leave correct ones)
-`var scopeArray2 = ["street", "firstFloor", "secondFloor", "neighbors", "neighborsSecondFloor"];`
+`var scopeArray2 = ["firstFloor", "secondFloor"];`
 
  Which function(s) access the ceiling variable and get undefined (Delete wrong answers, leave correct ones)
-`var scopeArray3 = ["street", "firstFloor", "secondFloor", "neighbors", "neighborsSecondFloor"];`
+`var scopeArray3 = ['street', 'firstFloor', 'secondFloor'];`
 
- Which functions accesss the ceiling variable and get "leaking" (Delete wrong answers, leave correct ones)
-`var scopeArray4 = ["street", "firstFloor", "secondFloor", "neighbors", "neighborsSecondFloor"];`
+ Which functions access the ceiling variable and get "leaking" (Delete wrong answers, leave correct ones)
+`var scopeArray4 = ["neighbors", "neighborsSecondFloor"];`
 
  Which functions access the temperature variable and get 72 (Delete wrong answers, leave correct ones)
-`var scopeArray5 = ["street", "firstFloor", "secondFloor", "neighbors", "neighborsSecondFloor"];`
+`var scopeArray5 = ['secondFloor'];`
+
+
 
 
  #2  ###################
@@ -50,7 +50,7 @@
   which changes the variable changed (above) to the boolean true;
   And resolve the promise when setTimeout completes.
 
-
+<!--
 ```
 var contextObj = {
   number: 0
@@ -59,12 +59,15 @@ var contextObj = {
 function sum(x, y) {
   return this.number += (x + y);
 }
-```
+``` -->
+
+
 
  #3 ###################
  # Context 1
  Create a function called context1 that will take in two numbers x and y.
- invoke sum passing in the two numbers x and y and explicitly set the context to the object called contextObj.
+ invoke sum passing in the two numbers x and y and explicitly set the context to the object called contextObj
+
 
  #4 ####################
  # Context 2
